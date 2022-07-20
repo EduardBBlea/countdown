@@ -1,0 +1,23 @@
+body{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.numbers{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
